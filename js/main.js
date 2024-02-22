@@ -2,7 +2,7 @@ var urlRPC = "https://rpc-testnet-nodes.shidoscan.com";
 var currency = "SHIDO";
 var networkName = "Shido Testnet"
 const chainId = 9007;
-const milisecondsToWait = 5000;
+const milisecondsToWait = 12000;
 
 var web3 = new Web3(new Web3.providers.HttpProvider(urlRPC));
 const MMSDK = new MetaMaskSDK.MetaMaskSDK();
